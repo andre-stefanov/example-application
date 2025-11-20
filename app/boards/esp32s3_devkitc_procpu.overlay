@@ -4,7 +4,7 @@
  */
 
 /* This devicetree overlay file will be automatically picked by the Zephyr
- * build system when building the sample for the esp32s3_devkitm board. It shows
+ * build system when building the sample for the esp32s3_devkitc/esp32s3/procpu board. It shows
  * how the example-application can be built on sample boards already provided
  * by Zephyr.
  */

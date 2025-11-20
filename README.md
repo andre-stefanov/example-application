@@ -80,7 +80,7 @@ west build -b $BOARD app
 where `$BOARD` is the target board.
 
 You can use the `custom_plank` board found in this repository, or Zephyr-supported
-boards such as `nucleo_f302r8` or `esp32s3_devkitm` (ESP32-S3). Note that Zephyr
+boards such as `nucleo_f302r8` or `esp32s3_devkitc/esp32s3/procpu` (ESP32-S3). Note that Zephyr
 sample boards may be used if an appropriate overlay is provided (see `app/boards`).
 
 A sample debug configuration is also provided. To apply it, run the following
@@ -98,7 +98,7 @@ west flash
 
 #### ESP32-S3 Specific Notes
 
-When building for ESP32-S3 boards (e.g., `esp32s3_devkitm`), you may need to fetch
+When building for ESP32-S3 boards (e.g., `esp32s3_devkitc/esp32s3/procpu`), you may need to fetch
 binary blobs for Wi-Fi and Bluetooth support:
 
 ```shell
