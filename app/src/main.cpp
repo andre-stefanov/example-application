@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include <version>
+#include <cstdint>
 
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/sensor.h>
