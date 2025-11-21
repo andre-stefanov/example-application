@@ -7,6 +7,10 @@
 cmake_minimum_required(VERSION 3.13.1)
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 
-project(app LANGUAGES C)
+project(app LANGUAGES C CXX)
 
-target_sources(app PRIVATE src/main.c)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+target_sources(app PRIVATE src/main.cpp)
